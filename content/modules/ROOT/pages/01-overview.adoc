@@ -9,6 +9,7 @@ This page explains *what* the IT Self-Service Agent is, *how* the pieces fit tog
 Many organizations want to support IT processes through generative AI–based self-service. This quickstart provides a reusable platform for building AI-driven IT process automation on Red Hat OpenShift.
 
 *Value propositions:*
+
 * **Reduced time** for employees to complete common requests
 * **Higher compliance** to process standards
 * **Fewer rejected requests** due to missing or incorrect information
