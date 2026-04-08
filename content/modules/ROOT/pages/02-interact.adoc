@@ -20,14 +20,7 @@ In Showroom, open the **Test email UI** tab in the right-hand pane—it loads th
 
 https://test-email-server-ui-user-{guid}-it-selfsvc.{openshift_cluster_ingress_domain}[Test email UI,window="_blank"]
 
-If that link does not open the UI, try the **Test email UI** Showroom tab first—it loads the same URL. If you still cannot reach the UI, discover the Route from the cluster (below) or follow your lab provider’s guidance. In Demo Mode, **Greenmail** runs in the cluster as the test mail server for those messages.
-
-If you need to discover it from the cluster (and you have CLI access to the deployment namespace):
-
-[source,bash]
-----
-oc get routes -n $NAMESPACE | grep -i email
-----
+If that link does not open the UI, try the **Test email UI** Showroom tab first—it loads the same URL.
 
 **Expected outcome:** The test email UI opens with a user dropdown and message composer.
 
