@@ -52,7 +52,7 @@ Generative AI agents are non-deterministic—the same input can produce differen
 * Catches regressions when you change prompts or models
 * Uses the open source DeepEval framework for multi-turn conversation metrics
 
-If you install and run the quickstart on your own it is as easy as doing `cd evaluations/`, configuring the eval LLM, and running `make eval` or `python evaluate.py`. See the {quickstart_repo_url}/blob/{quickstart_git_ref}/guides/EVALUATIONS_GUIDE.md[Evaluations Guide,window="_blank"] for setup and metrics.
+If you install and run the quickstart on your own it is as easy as doing `cd evaluations/`, configuring the eval LLM, and running `python evaluate.py`. See the {quickstart_repo_url}/blob/{quickstart_git_ref}/guides/EVALUATIONS_GUIDE.md[Evaluations Guide,window="_blank"] for setup and metrics.
 
 == Tracing: Observability for Production
 
@@ -63,7 +63,7 @@ Production agentic systems involve complex async flows—request manager, agent 
 * MCP server calls and knowledge base lookups
 * Performance bottlenecks
 
-If you install and run the quickstart on your own you can either Deploy Jaeger (`make jaeger-deploy`) or OpenShift's Tempo Stack, set `OTEL_EXPORTER_OTLP_ENDPOINT`, and redeploy. Traces will then appear in the Jaeger UI or OpenShift's Observe → Traces. See the quickstart's tracing documentation for details.
+If you install and run the quickstart on your own you can either Deploy Jaeger (`make jaeger-deploy`) or OpenShift's Tempo Stack, set `OTEL_EXPORTER_OTLP_ENDPOINT`, and redeploy. Traces will then appear in the Jaeger UI or OpenShift's Observe → Traces. See the quickstart's {quickstart_repo_url}/blob/{quickstart_git_ref}/README.md#follow-the-flow-with-tracing[tracing documentation,window="_blank"] for details.
 
 == Blog Series: Deeper Technical Dives
 
